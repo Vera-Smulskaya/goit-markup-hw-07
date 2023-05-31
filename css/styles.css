@@ -53,3 +53,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+@media (max-width: 767px) {
+  .container {
+    width: 428px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+}
