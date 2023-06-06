@@ -279,7 +279,6 @@ img {
 
 .order-service {
   max-width: 428px;
-  height: 432px;
   background-color: var(--dark-color);
   margin-left: auto;
   margin-right: auto;
@@ -947,7 +946,6 @@ img {
 
   .order-service {
     max-width: 768px;
-    height: 436px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -1082,6 +1080,10 @@ img {
     transition: color var(--transition-duration-and-func);
   }
 
+  .header-container {
+    padding-top: 0;
+  }
+
   .address-list {
     display: flex;
     gap: 40px;
@@ -1096,9 +1098,17 @@ img {
     transition: color var(--transition-duration-and-func);
   }
 
+  .header-contact-email {
+    margin-bottom: 0;
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
   .order-service {
     max-width: 1440px;
-    height: 600px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -1137,15 +1147,7 @@ img {
 
   .list-directions-item {
     width: 264px;
-  }
-
-  .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-
-  .section-directions {
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   .title-direction {
@@ -1156,7 +1158,7 @@ img {
 
   .section-what-doing {
     padding-top: 0;
-    display: flex;
+    display: block;
   }
 
   .list-images {
