@@ -277,6 +277,11 @@ img {
   color: var(--dark-color);
 }
 
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
 .order-service {
   max-width: 428px;
   background-color: var(--dark-color);
@@ -330,11 +335,6 @@ img {
 
 .box-icon-directions {
   display: none;
-}
-
-.section {
-  padding-top: 96px;
-  padding-bottom: 96px;
 }
 
 .section-what-doing {
@@ -1172,6 +1172,15 @@ img {
 
   .logo-part {
     margin-right: 120px;
+    margin-bottom: 0;
+  }
+
+  .social-media {
+    margin-bottom: 0;
+  }
+
+  .footer-form {
+    max-width: 100%;
   }
 
   .footer-form-wrapper {
@@ -1184,9 +1193,10 @@ img {
 
   .container-footer {
     display: flex;
+    gap: 0;
     align-items: baseline;
     flex-wrap: nowrap;
-    max-width: 1128px;
+    max-width: 1158px;
   }
 }
 
