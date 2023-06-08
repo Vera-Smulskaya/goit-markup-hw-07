@@ -1121,18 +1121,6 @@ img {
   .order-service-title {
     margin-bottom: 48px;
   }
-}
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
-  screen and (min-resolution: 192dpi) and (min-width: 1158px),
-  screen and (min-resolution: 2dppx) and (min-width: 1158px) {
-  .order-service {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url("../images/background/people-office-desktop@2x.jpg");
-  }
 
   .box-icon-directions {
     display: flex;
@@ -1199,6 +1187,18 @@ img {
     align-items: baseline;
     flex-wrap: nowrap;
     max-width: 1128px;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+  screen and (min-resolution: 192dpi) and (min-width: 1158px),
+  screen and (min-resolution: 2dppx) and (min-width: 1158px) {
+  .order-service {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/background/people-office-desktop@2x.jpg");
   }
 }
 
