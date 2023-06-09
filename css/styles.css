@@ -308,6 +308,11 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/background/people-office-mobile.jpg");
 }
 
 .order-service-title {
@@ -487,6 +492,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  justify-content: center;
 }
 
 .customers-list-item {
